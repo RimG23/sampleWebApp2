@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="DESKTOP-PQ8MARB" name="junit.TestCalculator" skipped="0" tests="5" time="0.115" timestamp="2018-01-19T10:02:23">
+  <properties>
+    <property name="ant.project.invoked-targets" value="junit" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.vm.version" value="9.0.4+11" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin" />
+    <property name="ant.library.dir" value="C:\Users\USER\Downloads\apache-ant-1.9.9\lib" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.9 compiled on February 2 2017" />
+    <property name="ant.java.version" value="9" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="user.script" value="" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="FR" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="C:\Users\USER\Desktop\jenkins\gitWorkspace\SampleWebApp" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="java.runtime.version" value="9.0.4+11" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="basedir" value="C:\Users\USER\Desktop\jenkins\gitWorkspace\SampleWebApp" />
+    <property name="os.arch" value="amd64" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\" />
+    <property name="ant.core.lib" value="C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant.jar" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.variant" value="" />
+    <property name="os.name" value="Windows 10" />
+    <property name="ant.home" value="C:\Users\USER\Downloads\apache-ant-1.9.9" />
+    <property name="ant.project.name" value="SampleBuild" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-9.0.4/bin;C:\Users\USER\Downloads\apache-ant-1.9.9/bin;C:\Program Files\Java\jdk-9.0.4/bin;C:\Program Files\Docker\Docker\Resources\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\tools\php71;C:\Program Files (x86)\vim\vim80;C:\PHP;C:\composer;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;." />
+    <property name="jdk.debug" value="release" />
+    <property name="java.class.version" value="53.0" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.version" value="10.0" />
+    <property name="ant.file" value="C:\Users\USER\Desktop\jenkins\gitWorkspace\SampleWebApp\build.xml" />
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="9" />
+    <property name="user.name" value="DESKTOP-PQ8MARB$" />
+    <property name="java.class.path" value="C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-launcher.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-antlr.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-apache-bcel.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-apache-bsf.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-apache-log4j.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-apache-oro.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-apache-regexp.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-apache-resolver.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-apache-xalan2.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-commons-logging.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-commons-net.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-jai.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-javamail.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-jdepend.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-jmf.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-jsch.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-junit.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-junit4.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-launcher.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-netrexx.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-swing.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant-testutil.jar;C:\Users\USER\Downloads\apache-ant-1.9.9\lib\ant.jar" />
+    <property name="java.vm.specification.version" value="9" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher junit" />
+    <property name="java.home" value="C:\Program Files\Java\jdk-9.0.4" />
+    <property name="user.language" value="fr" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.version" value="9.0.4" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="ant.file.SampleBuild" value="C:\Users\USER\Desktop\jenkins\gitWorkspace\SampleWebApp\build.xml" />
+    <property name="file.separator" value="\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="ant.file.type" value="file" />
+    <property name="ant.file.type.SampleBuild" value="file" />
+    <property name="sun.desktop" value="windows" />
+    <property name="sun.cpu.isalist" value="amd64" />
+  </properties>
+  <testcase classname="junit.TestCalculator" name="testDivideByZero" time="0.009" />
+  <testcase classname="junit.TestCalculator" name="testAdd" time="0.0" />
+  <testcase classname="junit.TestCalculator" name="testSubtract" time="0.001" />
+  <testcase classname="junit.TestCalculator" name="testDivide" time="0.0" />
+  <testcase classname="junit.TestCalculator" name="testMultiply" time="0.003" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
